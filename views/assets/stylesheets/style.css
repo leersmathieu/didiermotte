@@ -1,0 +1,76 @@
+body {
+  margin: 0 auto;
+  padding: 0 auto;
+  background-image: url("https://didiermotte.be/app/uploads/2017/11/NY_docks_o.jpg");
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover; }
+
+header nav {
+  height: 40px;
+  background-color: #272727;
+  border-bottom: 1px solid #454444; }
+
+.head {
+  height: 850px;
+  width: 100%;
+  display: flex; }
+  .head .vcard {
+    height: 300px;
+    width: 400px;
+    background-color: white;
+    margin: auto;
+    padding: 10px;
+    border-radius: 10px; }
+    .head .vcard img {
+      margin: 0 auto;
+      width: 385px;
+      height: 141px; }
+    .head .vcard p {
+      text-align: center; }
+      .head .vcard p a {
+        text-decoration: none;
+        color: black; }
+    .head .vcard nav {
+      width: 100%;
+      margin-left: 1%;
+      margin-top: 35px; }
+      .head .vcard nav li {
+        max-width: 32%;
+        margin-right: 10px;
+        display: inline-block; }
+        .head .vcard nav li a {
+          text-decoration: none;
+          color: white;
+          padding: 10px 12px;
+          background-color: #222;
+          border-radius: 5px;
+          line-height: 21px;
+          font-weight: 700; }
+
+.stock {
+  background-color: white;
+  padding-top: 40px; }
+  .stock h1 {
+    text-align: center;
+    margin-bottom: 40px;
+    text-transform: uppercase; }
+  .stock form {
+    max-width: 480px;
+    margin: 50px auto;
+    text-align: center;
+    line-height: 3; }
+    .stock form label {
+      display: block;
+      text-transform: uppercase; }
+    .stock form .button {
+      text-decoration: none;
+      color: white;
+      padding: 1px 12px;
+      background-color: #222;
+      border-radius: 5px;
+      line-height: 21px;
+      font-weight: 700; }
+
+/*# sourceMappingURL=style.css.map */
