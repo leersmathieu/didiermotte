@@ -5,7 +5,8 @@ body {
   background-position: center bottom;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-size: cover; }
+  background-size: cover;
+  font-family: 'Lato','sans-serif'; }
 
 header nav {
   height: 40px;
@@ -22,7 +23,8 @@ header nav {
     background-color: white;
     margin: auto;
     padding: 10px;
-    border-radius: 10px; }
+    border-radius: 10px;
+    font-size: 13px; }
     .head .vcard img {
       margin: 0 auto;
       width: 385px;
@@ -34,28 +36,34 @@ header nav {
         color: black; }
     .head .vcard nav {
       width: 100%;
-      margin-left: 1%;
       margin-top: 35px; }
-      .head .vcard nav li {
-        max-width: 32%;
-        margin-right: 10px;
-        display: inline-block; }
-        .head .vcard nav li a {
-          text-decoration: none;
-          color: white;
-          padding: 10px 12px;
-          background-color: #222;
-          border-radius: 5px;
-          line-height: 21px;
-          font-weight: 700; }
+      .head .vcard nav ul {
+        text-align: center;
+        padding: 0; }
+        .head .vcard nav ul li {
+          max-width: 32%;
+          margin-right: 5px;
+          display: inline-block; }
+          .head .vcard nav ul li a {
+            text-decoration: none;
+            color: white;
+            padding: 10px 12px;
+            background-color: #222;
+            border-radius: 5px;
+            line-height: 21px;
+            font-weight: 700;
+            text-transform: uppercase;
+            font-size: 10px; }
 
 .stock {
   background-color: white;
-  padding-top: 40px; }
+  padding-top: 30px; }
   .stock h1 {
     text-align: center;
     margin-bottom: 40px;
-    text-transform: uppercase; }
+    text-transform: uppercase;
+    color: #222;
+    font-weight: 400; }
   .stock form {
     max-width: 480px;
     margin: 50px auto;
