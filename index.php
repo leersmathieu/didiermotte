@@ -8,19 +8,16 @@
     <title>Preview Didier Motte</title>
 </head>
 <body>
-    <header>
-        <nav>
-        
-        </nav>
-    </header>
-
-    <?php 
-        require "views/head.html";
-        require "views/stock.html";
-        require "views/categorie.html";
-        require "views/blockquote.html";
-        require "views/footer.html"; ?>
-
     
+    <?php 
+        define('VIEW', 'views/');
+        define('CONTROLLERS', 'controllers/');
+
+        $action = isset($_GET['action']) ? htmlentities($_GET['action']) : 'home';
+
+        require "controllers/controle.php";
+
+         
+    ?>
 </body>
 </html>
