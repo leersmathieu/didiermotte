@@ -13,15 +13,14 @@
         
         </nav>
     </header>
+
+    <?php 
+        require "views/head.html";
+        require "views/stock.html";
+        require "views/categorie.html";
+        require "views/blockquote.html";
+        require "views/footer.html"; ?>
+
     
-    <?php require "views/head.php" ?>
-    <?php require "views/stock.php" ?>
-    
-    <section class="quote" >
-    
-    </section>
-    <footer>
-    
-    </footer>
 </body>
 </html>
