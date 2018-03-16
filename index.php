@@ -10,8 +10,8 @@
 <body>
     
     <?php 
-        define('VIEW', 'views/');
-        define('CONTROLLERS', 'controllers/');
+        // define('VIEW', 'views/');
+        // define('CONTROLLERS', 'controllers/');
 
         $action = isset($_GET['action']) ? htmlentities($_GET['action']) : 'home';
 

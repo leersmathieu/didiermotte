@@ -7,4 +7,9 @@
         require "views/footer.html";
     }
 
+    if ($action == 'present'){
+        require "views/headnav.html";
+        require "views/present.html";
+    }
+
 ?>

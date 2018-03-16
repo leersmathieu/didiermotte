@@ -9,7 +9,7 @@
 }
 
 * {
-    margin: 0 auto;
+    margin: 0;
     padding: 0;
 }
 
@@ -21,7 +21,7 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-    font-family: 'Lato','sans-serif';
+    font-family: 'Lato',"Avenir Next",'sans-serif';
     a {
         text-decoration: none;
         color : #222222;
@@ -33,6 +33,13 @@ header {
         height: 40px;
         background-color: #272727;
         border-bottom: 1px solid #454444;
+        color: white;
+        p {
+            display: flex;
+            align-items: center;
+            height: 100%;
+            padding-left: 10px;
+        }
     }
 }
 
@@ -193,6 +200,7 @@ blockquote {
         display: block;
         margin-bottom: 10px;
         width: 600px;
+        margin: 10px auto;
     }
     cite {
         background: #222;
@@ -210,3 +218,6 @@ footer {
         line-height: 2.5;
     }
 }
+
+
+@import "partiel/_present";
