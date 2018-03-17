@@ -204,12 +204,44 @@ footer {
 
 .present {
   background-color: white;
-  padding-top: 210px; }
+  padding-top: 100px;
+  color: #222; }
   .present h1 {
-    font-size: 26px;
+    font-size: 28px;
     text-align: center;
-    text-transform: uppercase; }
-  .present p {
+    text-transform: uppercase;
+    font-weight: 400; }
+  .present img {
     text-align: center; }
+  .present article {
+    max-width: 585px;
+    margin: auto; }
+    .present article h2 {
+      transform: none;
+      font-weight: bold;
+      font-size: 20px;
+      text-align: left;
+      margin-top: 2em;
+      margin-bottom: 0;
+      padding-bottom: 0;
+      padding-top: 20px; }
+    .present article p {
+      text-align: left;
+      font-size: 19px;
+      line-height: 1.4;
+      padding-top: 20px; }
+      .present article p a {
+        background: #222;
+        color: #F7F7F7;
+        border: 1px solid #4a4a4a;
+        border-radius: 5px;
+        padding: 0px 12px;
+        display: inline-block;
+        font-weight: 700;
+        text-decoration: none;
+        text-align: center;
+        font-size: 15px; }
+    .present article .quote {
+      margin: 1em 40px; }
 
 /*# sourceMappingURL=style.css.map */

@@ -12,4 +12,10 @@
         require "views/present.html";
     }
 
+    if ($action == 'stock'){
+        require "views/headnav.html";
+        require "views/stock.html";
+        require "views/cat.php";
+    }
+
 ?>
