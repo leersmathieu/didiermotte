@@ -1,0 +1,27 @@
+.categorie {
+    background-color: white;
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+    ul {
+        display: block;
+        margin: 0;
+        padding: 0;
+        padding-bottom: 20px;
+        list-style: none;
+        text-align: left;
+        overflow: hidden;
+        width: 100%;
+        li {
+            line-height: 1.5em;
+            border-bottom: 1px solid #ccc;
+            float: left;
+            display: inline;
+            width: 23%;
+            background-color: white;
+            margin-left: 20px;
+            font-weight: bold;
+            font-size: 13px;
+        }
+    }
+}

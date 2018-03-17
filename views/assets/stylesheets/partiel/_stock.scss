@@ -1,0 +1,59 @@
+.stock {
+    background-color: #F7F7F7;
+    padding-top: 30px;
+    h1 {
+        text-align: center;
+        margin-bottom: 40px;
+        text-transform: uppercase;
+        color: #222;
+        font-weight: 400;
+        font-size: 26px;
+    }
+    h2 {
+        text-align: center;
+        margin-bottom: 40px;
+        text-transform: uppercase;
+        color: #222;
+        font-weight: 400;
+        font-size: 22px;
+    }
+    form {
+        max-width: 480px;
+        margin: 0px auto;
+        text-align: center;
+        line-height: 3;
+        label {
+            display: block;
+            text-transform: uppercase;
+        }
+        .button {
+            @include black-button(1px);
+        }
+        .search {
+            width: 60%;
+        }
+    }
+    ul {
+        list-style: none;
+        padding: 20px 0;
+        margin: 0 auto;
+        text-align: center;
+        width: 100%;
+        li {
+            display: inline-block;
+            margin: 10px 5px 0 5px;
+            padding: 9px;
+            background-color: #222;
+            border-radius: 5px;
+            color: white;
+            a {
+                color: white;
+            }
+            h4 {
+                margin: 3px 0;
+                font-weight: normal;
+                font-size: 12px;
+            }
+        }
+    }
+}
