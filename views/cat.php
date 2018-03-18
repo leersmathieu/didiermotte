@@ -1,7 +1,6 @@
 <section class="categorie">
     <ul class="tags-list">
         <?php
-        
             $cat = array(
 
                     "acajou (1)",
@@ -141,7 +140,6 @@
                 echo "<li> <a href='' >".$value."</a></li>";
             }
         ?>
-
     </ul>
     <hr />
 </section>

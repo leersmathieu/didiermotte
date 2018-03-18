@@ -29,6 +29,16 @@ header {
       height: 100%;
       padding-left: 10px; }
 
+hr {
+  margin: 0 auto;
+  padding: 100px 0 0;
+  min-width: 80px;
+  background: transparent url(../img/hr.png) center center no-repeat;
+  display: block;
+  border: 0;
+  clear: both;
+  background-size: 40%; }
+
 .head {
   height: 850px;
   width: 100%;
@@ -171,16 +181,6 @@ header {
         font-weight: normal;
         font-size: 12px; }
 
-hr {
-  margin: 0 auto;
-  padding: 100px 0 0;
-  min-width: 80px;
-  background: transparent url(../img/hr.png) center center no-repeat;
-  display: block;
-  border: 0;
-  clear: both;
-  background-size: 40%; }
-
 .categorie {
   background-color: white;
   margin: 0 auto;
@@ -304,7 +304,8 @@ footer {
       text-align: left;
       font-size: 20px;
       line-height: 1.4;
-      padding-top: 20px; }
+      padding-top: 20px;
+      padding-bottom: 20px; }
     .contact article a {
       background: #222;
       color: #F7F7F7;
@@ -317,10 +318,12 @@ footer {
       text-align: center;
       font-size: 15px; }
     .contact article .info {
-      padding-bottom: 10px; }
+      padding-top: 15px; }
       .contact article .info p {
         line-height: 0;
-        font-size: 13px; }
+        font-size: 13px;
+        padding-top: 8px;
+        padding-bottom: 8px; }
         .contact article .info p a {
           display: unset; }
 

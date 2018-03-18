@@ -46,10 +46,6 @@ header {
     }
 }
 
-@import "partiel/_head";
-
-@import "partiel/_stock";
-
 hr {
     margin: 0 auto;
     padding: 100px 0 0;
@@ -57,9 +53,13 @@ hr {
     background: transparent url(../img/hr.png) center center no-repeat;
     display: block;
     border: 0;
-    clear: both; 
+    clear: both;
     background-size: 40%;
 }
+
+@import "partiel/_head";
+
+@import "partiel/_stock";
 
 @import "partiel/_cat";
 
