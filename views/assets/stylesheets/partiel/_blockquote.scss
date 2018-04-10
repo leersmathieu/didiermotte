@@ -9,7 +9,8 @@ blockquote {
         font-size: 30px;
         display: block;
         margin-bottom: 10px;
-        width: 600px;
+        max-width: 600px;
+        width: 100%;
         margin: 10px auto;
     }
     cite {
