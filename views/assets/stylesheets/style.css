@@ -6,7 +6,7 @@
 body {
   margin: 0 auto;
   padding: 0 auto;
-  background-image: url("https://didiermotte.be/app/uploads/2017/11/NY_docks_o.jpg");
+  background-image: url("../img/dd-fond.jpg");
   background-position: center bottom;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -32,8 +32,12 @@ header nav {
 }
 
 header nav p {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   height: 100%;
   padding-left: 10px;
 }
@@ -52,6 +56,8 @@ hr {
 .head {
   height: 850px;
   width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
 }
 
@@ -342,7 +348,8 @@ footer p {
 }
 
 .present article h2 {
-  transform: none;
+  -webkit-transform: none;
+          transform: none;
   font-weight: bold;
   font-size: 20px;
   text-align: left;
@@ -400,7 +407,8 @@ footer p {
 }
 
 .contact article h2 {
-  transform: none;
+  -webkit-transform: none;
+          transform: none;
   font-weight: bold;
   font-size: 20px;
   text-align: left;

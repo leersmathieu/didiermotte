@@ -1,13 +1,14 @@
 # didiermotte
 
-making website with MVC
+Reproduction "pixel perfect" du site marchand de didier motte.
 
-## Site réalisé en respectant le structure MVC
+## Site réalisé en respectant le structure MVC 
 
-### Objectif
-  - reproduire le design de ce site : https://didiermotte.be/
+### Objectif :
+
+  - Reproduire le design de ce site : https://didiermotte.be/
   
-### Look this online 
+### Résultat :
 
-http://leersmathieu.com/becode/didiermotte/
+  - http://leersmathieu.com/becode/didiermotte/
 
